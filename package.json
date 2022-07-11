@@ -1,0 +1,17 @@
+{
+  "name": "silverbullet-mount",
+  "version": "0.0.1",
+  "author": "Zef Hemel",
+  "scripts": {
+    "build": "plugos-bundle --exclude yaml handlebars @lezer/lr -- mount.plug.yaml",
+    "start": "plugos-bundle -w --exclude yaml handlebars @lezer/lr -- mount.plug.yaml"
+  },
+  "dependencies": {
+    "@silverbulletmd/plugos-silverbullet-syscall": "^0.0.21",
+    "@plugos/plugos-syscall": "^0.0.21",
+    "@silverbulletmd/plugs": "^0.0.21"
+  },
+  "devDependencies": {
+    "@plugos/plugos": "^0.0.21"
+  }
+}
